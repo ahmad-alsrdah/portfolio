@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmad Al-Srdah | Backend .NET Developer & AI Engineering Intern</title>
+  <meta name="description" content="Portfolio of Ahmad Al-Srdah, Backend .NET Developer and AI Engineering Intern building scalable ASP.NET Core backends and AI-integrated systems." />
+  <meta name="author" content="Ahmad Al-Srdah" />
+  <meta property="og:title" content="Ahmad Al-Srdah | Backend .NET Developer" />
+  <meta property="og:description" content="ASP.NET Core, distributed systems and AI integration." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0B1120" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Ahmad Al-Srdah<span>.dev</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+        <p class="eyebrow mono reveal">// Hello, I'm</p>
+        <h1 class="reveal">Ahmad Al-Srdah<br /><span class="gradient">Backend .NET Developer</span> <span class="pipe">|</span> AI Engineering Intern</h1>
+        <p class="lead reveal">I build secure, containerized ASP.NET Core backends and connect them to AI models and agent workflows, from multi-service platforms to low-latency inference pipelines.</p>
+        <div class="cta reveal">
+          <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="CV.pdf" class="btn btn-ghost" download><i class="fa-solid fa-download"></i> Download CV</a>
+        </div>
+        <div class="socials reveal">
+          <a href="https://github.com/ahmad-alsrdah" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/ahmad-alsrdah" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:ahmad.alsrdah.dev@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <button class="copy-btn" id="copyEmail" data-email="ahmad.alsrdah.dev@gmail.com"><i class="fa-regular fa-copy"></i> Copy Email</button>
+        </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Portrait of Ahmad Al-Srdah" width="400" height="400" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="mono">01.</span> About</h2>
+        <div class="card glass reveal about-card">
+          <p>Final-year Software Engineering student and backend developer specializing in the .NET ecosystem (C#, ASP.NET Core), distributed systems, and AI integration. I have built containerized multi-service platforms that pair AI models with scalable backends.</p>
+          <p>I hold the Microsoft Backend Developer Professional Certificate and I'm looking for remote backend or AI-integrated engineering roles.</p>
+          <div class="chips"><span class="pill">Arabic (Native)</span><span class="pill">English (Professional)</span><span class="pill">Damascus, Syria</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="mono">02.</span> Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div class="card glass">
+              <div class="row"><h3>AI Engineering Intern</h3><span class="date mono">Nov 2026 – Present</span></div>
+              <p class="muted">shabab.ai (mawared.ai) · Remote</p>
+              <ul>
+                <li>Collaborate on the engineering and integration of production AI agents and data pipelines for career guidance and labor-market analytics platforms.</li>
+                <li>Design and connect backend services and RESTful APIs supporting intelligent workflows, low-latency inference, and scalable data processing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="mono">03.</span> Featured Projects</h2>
+        <div class="grid projects">
+
+          <article class="card glass project reveal">
+            <div class="icon"><i class="fa-solid fa-eye"></i></div>
+            <h3>Sarab Platform</h3>
+            <p class="muted">Ophthalmic research platform · Backend &amp; DevOps</p>
+            <p>Backend of a biomedical data platform: Swagger-documented REST APIs for auth, collections, samples, file handling and search, with JWT/role-based authorization, EF Core on SQL Server, xUnit tests, and a one-command Docker Compose environment. Integrates VGG16/UNet corneal image analysis and a fine-tuned Whisper ASR service for Arabic clinical dictation.</p>
+            <div class="chips"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">EF Core</span><span class="tag">SQL Server</span><span class="tag">JWT</span><span class="tag">Docker</span><span class="tag">xUnit</span></div>
+            <div class="links"><a class="btn btn-sm" href="https://github.com/ahmad-alsrdah" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View on GitHub</a></div>
+          </article>
+
+          <article class="card glass project reveal">
+            <div class="icon"><i class="fa-solid fa-mobile-screen"></i></div>
+            <h3>Sarab AI</h3>
+            <p class="muted">AI-powered mobile app · Mobile Developer</p>
+            <p>Cross-platform React Native (Expo) client connected to the Sarab backend, with asynchronous REST communication, state management, and camera/media capture that sends data to the AI services.</p>
+            <div class="chips"><span class="tag">React Native</span><span class="tag">Expo</span><span class="tag">REST APIs</span><span class="tag">State Mgmt</span></div>
+            <div class="links"><a class="btn btn-sm" href="https://github.com/ahmad-alsrdah" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View on GitHub</a></div>
+          </article>
+
+          <article class="card glass project reveal">
+            <div class="icon"><i class="fa-solid fa-film"></i></div>
+            <h3>Aphamos</h3>
+            <p class="muted">Multimodal text-to-video retrieval framework</p>
+            <p>Training-free retrieval system combining MobileCLIP-S2 frame embeddings with Moonshine ASR transcripts, fused per video via Shannon-entropy weighting, with adaptive frame sampling and PCA reduction. Reaches R@1 of 0.637 on Panda-70M and 0.387 on MSR-VTT, running locally on a 4 GB GPU.</p>
+            <div class="chips"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">MobileCLIP</span><span class="tag">Moonshine ASR</span><span class="tag">PCA</span></div>
+            <div class="links"><a class="btn btn-sm" href="https://github.com/ahmad-alsrdah/Aphamos" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View on GitHub</a></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="mono">04.</span> Technical Skills</h2>
+        <div class="grid skills">
+          <div class="card glass reveal"><h3><i class="fa-solid fa-server"></i> Backend &amp; Messaging</h3><div class="chips"><span class="tag">C#</span><span class="tag">.NET Core</span><span class="tag">ASP.NET Core Web API</span><span class="tag">EF Core</span><span class="tag">RESTful APIs</span><span class="tag">JWT</span><span class="tag">RabbitMQ</span><span class="tag">Redis</span><span class="tag">Swagger</span></div></div>
+          <div class="card glass reveal"><h3><i class="fa-solid fa-database"></i> Databases</h3><div class="chips"><span class="tag">SQL Server</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span></div></div>
+          <div class="card glass reveal"><h3><i class="fa-solid fa-brain"></i> AI &amp; Integration</h3><div class="chips"><span class="tag">AI Model Integration</span><span class="tag">LLM &amp; Agent Workflows</span><span class="tag">Python (Basic)</span></div></div>
+          <div class="card glass reveal"><h3><i class="fa-brands fa-docker"></i> DevOps &amp; Tools</h3><div class="chips"><span class="tag">Docker</span><span class="tag">Docker Compose</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Linux</span></div></div>
+          <div class="card glass reveal"><h3><i class="fa-solid fa-vial"></i> Testing &amp; Mobile</h3><div class="chips"><span class="tag">xUnit</span><span class="tag">FluentAssertions</span><span class="tag">React Native (Expo)</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="mono">05.</span> Education &amp; Certifications</h2>
+        <div class="grid edu">
+          <div class="card glass reveal"><i class="fa-solid fa-graduation-cap big"></i><h3>B.Sc. Informatics Engineering</h3><p class="muted">Software Engineering specialization</p><p>Al-Sham Private University (ASPU), Damascus · Expected 2027</p></div>
+          <div class="card glass reveal"><i class="fa-brands fa-microsoft big"></i><h3>Microsoft Backend Developer</h3><p class="muted">Professional Certificate</p><p>Coursera</p></div>
+          <div class="card glass reveal"><i class="fa-brands fa-jira big"></i><h3>Agile with Atlassian Jira</h3><p class="muted">Certificate</p><p>Coursera</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="mono">06.</span> Contact</h2>
+        <div class="card glass contact reveal">
+          <p class="lead">Open to remote backend and AI-integrated engineering roles. Let's talk.</p>
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-envelope"></i><a href="mailto:ahmad.alsrdah.dev@gmail.com">ahmad.alsrdah.dev@gmail.com</a></li>
+            <li><i class="fa-brands fa-linkedin-in"></i><a href="https://linkedin.com/in/ahmad-alsrdah" target="_blank" rel="noopener">linkedin.com/in/ahmad-alsrdah</a></li>
+            <li><i class="fa-brands fa-github"></i><a href="https://github.com/ahmad-alsrdah" target="_blank" rel="noopener">github.com/ahmad-alsrdah</a></li>
+            <li><i class="fa-solid fa-location-dot"></i><span>Damascus, Syria</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© <span id="year"></span> Ahmad Al-Srdah. Built with HTML, CSS &amp; JavaScript.</p></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied to clipboard</div>
+  <script src="script.js"></script>
+</body>
+</html>
