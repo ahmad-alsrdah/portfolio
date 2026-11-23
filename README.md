@@ -2,7 +2,7 @@
 
 Personal developer portfolio showcasing my work as a **Backend .NET Developer** and **AI Engineering Intern**, featuring my projects, technical stack, and experience.
 
-🔗 **Live Website:** [https://ahmad-alsrdah.github.io](https://ahmad-alsrdah.github.io)
+🔗 **Live Website:** [https://ahmad-alsrdah.github.io](https://ahmad-alsrdah.github.io/portfolio)
 ## Let's Connect:
 [![linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ahmad-al-srdah/)
 
