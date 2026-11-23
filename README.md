@@ -4,5 +4,5 @@ Personal developer portfolio showcasing my work as a **Backend .NET Developer** 
 
 🔗 **Live Website:** [MY Portfolio](https://ahmad-alsrdah.github.io/portfolio)
 ## Let's Connect:
-[![linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ahmad-alsrdah/)
+[![linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/ahmad-alsrdah1/)
 
