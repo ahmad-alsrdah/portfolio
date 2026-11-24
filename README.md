@@ -1,6 +1,6 @@
-# Ahmad Al-Srdah — Personal Portfolio
+# Ahmad Al-Srdah | Personal Portfolio
 
-Personal developer portfolio showcasing my work as a **Backend .NET Developer** and **AI Engineering Intern**, featuring my projects, technical stack, and experience.
+Personal portfolio of Ahmad Al-Srdah, Backend .NET Developer and AI Engineering Intern. Built with plain HTML5, CSS3 and vanilla JavaScript: no frameworks, no build step.
 
 🔗 **Live Website:** [MY Portfolio](https://ahmad-alsrdah.github.io/portfolio)
 ## Let's Connect:
